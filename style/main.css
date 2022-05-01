@@ -1,0 +1,44 @@
+:root{
+    --corDeFundo: #141414;
+    --corPrincipal: #E50914;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--corDeFundo);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-header .container .logo{
+    font-size: 25px;
+    margin-right: 45px;
+    margin-left: 50px;
+}
+
+.main-header{
+    background-color: rgba(12, 12, 12, 0.4);
+}
+
+.main-header .main-header-nav a{
+    text-decoration: none;
+    color: #e5e5e5;;
+    margin-right: 13px;
+}
+
+.main-header .main-header-nav a:hover{
+    color: #AAA;
+    transition: linear 0.2s;
+}
