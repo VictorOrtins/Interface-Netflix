@@ -1,3 +1,5 @@
+/*Base */
+
 :root{
     --corDeFundo: #141414;
     --corPrincipal: #E50914;
@@ -11,10 +13,12 @@
 
 body{
     background-color: var(--corDeFundo);
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.container{
+/* Header principal*/
+
+header .container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,7 +26,11 @@ body{
     padding-bottom: 20px;
 }
 
-.main-header .container .logo{
+header .container .container{
+    padding: 0;
+}
+
+.main-header .container a .logo{
     font-size: 25px;
     margin-right: 45px;
     margin-left: 50px;
@@ -42,3 +50,81 @@ body{
     color: #AAA;
     transition: linear 0.2s;
 }
+
+/* Filme principal */
+.filme-principal{
+    color: white;
+
+    background-color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 100%), url(../img/Dark-Capa.jpg);
+    height: 500px;
+    width: 100%;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filme-principal .container{
+    margin-left: 4.2%;
+}
+
+.titulo-filme-principal{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 2.5%;
+    font-size: 18px;
+    width: 50%;
+}
+
+.botoes{
+    display: flex;
+}
+
+.filme-principal .botao{
+    margin-right: 15px;
+    height: 32px;
+    border: none;
+    font-size: 16px;
+
+
+    padding: 17px 20px;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+
+    border-radius: 3px;
+}
+
+.filme-principal .botao-branco{
+    background-color: white;
+}
+
+.filme-principal .botao-branco:hover{
+    background-color: rgb(148, 148, 148);
+    transition: 0.8s ease;
+}
+
+.filme-principal .botao-cinza{
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+
+.filme-principal .botao-cinza:hover{
+    background-color: rgba(104, 104, 104, 0.35);
+    transition: 0.3s ease;
+}
+
+.logo{
+    margin-right: 7px;
+    font-size: 26px;
+}
+
+
