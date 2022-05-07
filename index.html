@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang = "pt-br">
+
     <head>
         <title>Netflix Interface</title>
         <meta charset = "utf-8">
         <meta name = "author" content = "Victor Ortins">
         <meta name = "description" content = "">
         <meta name = "keywords" content = "">
-        <link rel = "stylesheet" type = "text/css" href = "style/main.css">
-        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-        </style>
+        <link rel = "stylesheet" type = "text/css" href = "style/main.css">
+
+        <!--Owl CSS-->
+        <link rel = "stylesheet" href = "style/owl/owl.carousel.min.css">
+        <link rel = "stylesheet" href = "style/owl/owl.theme.default.min.css">
+
     </head>
     
     <body>
@@ -25,6 +27,11 @@
                     <a href = "#">Bombando</a>
                     <a href = "#">Minha Lista</a>
                 </nav>
+
+                <nav class = "main-header-right">
+                    <a href = "#"><span class="iconify logo search" data-icon="charm:search"></span></a>
+                    <a href = "#"><span class="iconify logo bell" data-icon="bi:bell-fill"></span></a>
+                </nav>
             </div>
         </header>
 
@@ -34,7 +41,6 @@
                     <h3 class = "titulo-filme-principal">Dark</h3>
                     <p class = "descricao">Quatro famílias iniciam uma desesperada busca por respostas quando uma criança desaparece e um complexo mistério envolvendo três gerações começa a se revelar.</p>
                     <div class = botoes>
-
                         <button role = "button" class = "botao botao-branco">
                             <span class="iconify logo" data-icon="carbon:play-filled-alt"></span><p>Assistir</p>
                         </button>
@@ -43,9 +49,181 @@
                             <span class="iconify logo" data-icon="charm:info"></span><p>Mais informações</p>
                         </button>     
                     </div>
-            
                 </div>
             </div>
         </main>
+
+
+        <section class = "espaco" id = "filmes-destaques">
+            <div class = "container">
+                <h4 class = "titulos">Em alta</h4>
+                <div class = "owl-carousel owl-theme">
+
+                    <a href = "#filmes-destaques">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/BrooklynNineNine-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#filmes-destaques">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/GreysAnatomy-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#filmes-destaques">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/Heartstopper-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#filmes-destaques">    
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/PeakyBlinders-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#filmes-destaques">   
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/RickAndMorty-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#filmes-destaques">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/StrangerThings-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#filmes-destaques">
+                        <div class = "item">
+                            <img class = "box-filmes" src ="img/BetterCallSaul-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#filmes-destaques">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/BreakingBad-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#filmes-destaques">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/Narcos-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#filmes-destaques">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "https://www.themoviedb.org/t/p/original/mHBVP9eZ0ZPQj0X0oTmPbCDaW5R.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#filmes-destaques">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "https://www.themoviedb.org/t/p/original/acCuY6pAhEGuFVL30ogNSZPyw2y.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#filmes-destaques">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "https://www.themoviedb.org/t/p/original/4YaerJEQtWrAMPwjDZArSxhL3fC.jpg">
+                        </div>
+                    </a>
+                    
+                    <a href = "#filmes-destaques">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "https://www.themoviedb.org/t/p/original/7LMSllDXEVBBwY7yQop2CY0AW7I.jpg">
+                        </div>
+                    </a>
+
+                </div>        
+            </div>
+        </section>
+
+        <section class = "espaco" id = "continuar-assistindo">
+            <div class = "container">
+                <h4 class = "titulos">Continuar assistindo como Victor</h4>
+                <div class = "owl-carousel owl-theme">
+                    <a href = "#continuar-assistindo">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/BrooklynNineNine-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#continuar-assistindo">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/GreysAnatomy-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#continuar-assistindo">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "https://www.themoviedb.org/t/p/original/acCuY6pAhEGuFVL30ogNSZPyw2y.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#continuar-assistindo">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "https://www.themoviedb.org/t/p/original/5GcReuhJpBnc34fvfBoy4ITqUKk.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#continuar-assistindo">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "https://www.themoviedb.org/t/p/original/5GXdp7KKJYW6kwzUthKFVu4JAMn.jpg">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class = "espaco" id = "series-realistas">
+            <div class = "container">
+                <h4 class = "titulos">Séries realistas aclamadas pela crítica</h4>
+                <div class = "owl-carousel owl-theme">
+
+                    <a href = "#series-realistas">
+                        <div class = "item">
+                            <img class = "box-filmes" src ="img/BetterCallSaul-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#series-realistas">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/BreakingBad-Mini.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#series-realistas">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "img/Narcos-Mini.jpg">
+                        </div>
+                    </a>
+                    <a href = "#series-realistas">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "https://www.themoviedb.org/t/p/original/wTQfzRSFV757arHgKQ5ddKxYhOk.jpg">
+                        </div>
+                    </a>
+
+                    <a href = "#series-realistas">
+                        <div class = "item">
+                            <img class = "box-filmes" src = "https://www.themoviedb.org/t/p/original/ePOD0ofGWFDTbZR84QhM7kpYMPX.jpg">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--Iconify-->
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        <!--Owl JS-->
+        <script src = "js/owl/jquery.min.js"></script>
+        <script src = "js/owl/owl.carousel.min.js"></script>
+        <!--JavaScript-->
+        <script src = "js/main.js"></script>
+
     </body>
 </html>

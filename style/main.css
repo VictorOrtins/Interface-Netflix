@@ -14,11 +14,11 @@
 body{
     background-color: var(--corDeFundo);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
 }
 
 /* Header principal*/
-
-header .container{
+.main-header .container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,11 +26,12 @@ header .container{
     padding-bottom: 20px;
 }
 
-header .container .container{
+.main-header .container .container{
     padding: 0;
 }
 
-.main-header .container a .logo{
+
+.main-header .container .container .logo{
     font-size: 25px;
     margin-right: 45px;
     margin-left: 50px;
@@ -42,14 +43,30 @@ header .container .container{
 
 .main-header .main-header-nav a{
     text-decoration: none;
-    color: #e5e5e5;;
     margin-right: 13px;
+    color: #e5e5e5;
+    font-size: 15px;
 }
 
 .main-header .main-header-nav a:hover{
     color: #AAA;
     transition: linear 0.2s;
 }
+
+.main-header-right{
+    position: relative;
+    left: 580px;
+}
+
+.main-header-right .logo{
+    margin-right: 12px;
+    font-size: 20px;
+}
+
+.main-header-right a{
+    color: #e5e5e5;
+}
+
 
 /* Filme principal */
 .filme-principal{
@@ -60,14 +77,11 @@ header .container .container{
     height: 500px;
     width: 100%;
     background-size:cover;
+    margin-bottom: 20px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.filme-principal .container{
-    margin-left: 4.2%;
 }
 
 .titulo-filme-principal{
@@ -80,6 +94,10 @@ header .container .container{
     margin-bottom: 2.5%;
     font-size: 18px;
     width: 50%;
+}
+
+.filme-principal .container{
+    margin-left: 4.2%;
 }
 
 .botoes{
@@ -109,7 +127,7 @@ header .container .container{
 
 .filme-principal .botao-branco:hover{
     background-color: rgb(148, 148, 148);
-    transition: 0.8s ease;
+    transition: 0.25s ease;
 }
 
 .filme-principal .botao-cinza{
@@ -122,9 +140,32 @@ header .container .container{
     transition: 0.3s ease;
 }
 
-.logo{
+.filme-principal .logo{
     margin-right: 7px;
     font-size: 26px;
 }
+
+/* Navegação dos filmes */
+
+.box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.titulos{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.espaco{
+    margin-bottom: 10px;
+}
+
+.espaco .container{
+    margin-left: 4.2%;
+}
+
+
 
 
