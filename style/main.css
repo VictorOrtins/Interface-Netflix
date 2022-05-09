@@ -18,6 +18,8 @@ body{
 }
 
 /* Header principal*/
+
+
 .main-header .container{
     display: flex;
     flex-direction: row;
@@ -54,8 +56,9 @@ body{
 }
 
 .main-header-right{
-    position: relative;
-    left: 580px;
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
 }
 
 .main-header-right .logo{

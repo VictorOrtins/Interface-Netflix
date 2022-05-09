@@ -1,0 +1,20 @@
+@media screen and (max-width: 620px){
+    .main-header .container{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    .main-header .container .main-header-right{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        bottom: 20px;
+        margin-right: 130px;
+    }
+    
+    .netflix{
+        margin-bottom: 15px;
+    }
+}
