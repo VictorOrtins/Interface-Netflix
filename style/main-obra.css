@@ -1,0 +1,263 @@
+/*Base */
+
+:root{
+    --corDeFundo: #141414;
+    --corPrincipal: #E50914;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--corDeFundo);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    color: #e5e5e5;
+}
+
+/* Header principal*/
+
+
+.main-header .container-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-header .container-header .container-header{
+    padding: 0;
+}
+
+
+.main-header .container-header .container-header .logo{
+    font-size: 25px;
+    margin-right: 45px;
+    margin-left: 50px;
+}
+
+.main-header{
+    background-color: rgba(12, 12, 12, 0.4);
+}
+
+.container-header a, .container a{
+    text-decoration: none;
+}
+
+.main-header .main-header-nav a{
+    margin-right: 13px;
+    color: #e5e5e5;
+    font-size: 15px;
+}
+
+.main-header .main-header-nav a:hover{
+    color: #AAA;
+    transition: linear 0.2s;
+}
+
+.main-header-right{
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
+}
+
+.main-header-right .logo{
+    margin-right: 12px;
+    font-size: 20px;
+}
+
+.main-header-right a{
+    color: #e5e5e5;
+}
+
+.container{
+    margin-left: 4.2%;
+}
+
+
+/* Filme escolhido */
+.filme-escolhido{
+    color: white;
+
+    background-color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%);
+    background-position: 50% 5%;
+    height: 500px;
+    width: 100%;
+    background-size:cover;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-filme-escolhido{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+
+.filme-escolhido .descricao{
+    margin-bottom: 2.5%;
+    font-size: 18px;
+    width: 60%;
+}
+
+
+.botoes{
+    display: flex;
+}
+
+.filme-escolhido .botao{
+    margin-right: 15px;
+    height: 32px;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.filme-escolhido .botao-branco{
+    background-color: white;
+    border-radius: 6%;
+    border: none;
+    padding: 18px 18px;
+}
+
+.filme-escolhido .botao-branco:hover{
+    background-color: rgb(148, 148, 148);
+    transition: 0.25s ease;
+}
+
+.filme-escolhido .botao-cinza{
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+
+.filme-escolhido .botao-cinza:hover{
+    background-color: rgba(104, 104, 104, 0.35);
+    transition: 0.3s ease;
+}
+
+.filme-escolhido .logo{
+    margin-right: 7px;
+    font-size: 26px;
+}
+
+.botao-redondo{
+    border-radius: 50%;
+    border: white solid 2px;
+}
+
+.logo-redondo{
+    position: relative;
+    left: 3px;
+}
+
+/*Informações do filme escolhido*/
+
+.informacoes .container .temporadas{
+    display: flex;
+    color: white;
+}
+
+.temporadas, .informacoes-obra h4, .informacoes-obra p{
+    font-size: 25px;
+}
+
+.informacoes-obra h4, .informacoes-obra p{
+    color: white;
+}
+
+.temporadas .content{
+    margin-right: 10px;
+}
+
+.elenco, .genero, .cenas{
+    display: flex;
+}
+
+.informacoes-obra{
+    margin-bottom: 50px;
+    position: relative;
+    left: 270px;
+}
+
+.informacoes-obra h4{
+    margin-right: 5px;
+}
+
+.informacoes .container{
+    display: flex;
+}
+
+.elenco, .genero{
+    margin-bottom: 15px;
+}
+
+/*Linha*/
+
+.linha{
+    margin-right: 4.2%;
+    margin-left: 4.2%;
+    margin-bottom: 100px;
+    color: white;
+}
+
+/*Cards*/
+
+.card{
+    margin-right: 80px;
+    height: 400px;
+}
+
+.card a{
+    color: #fff;
+}
+
+.card a:hover{
+    color: #fff;
+}
+
+.card-group{
+    width: 110%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.card-body{
+    background-color:#424242de;
+}
+
+.acima{
+    display: flex;
+}
+
+.acima .relevante{
+    color: rgb(103, 255, 103);
+    margin-right: 15px;
+}
+
+.card-1 a{
+    margin-top: 30px;
+}
+
+.card-2 a{
+    margin-top: 48px;
+}
+
+.card-3 a{
+    margin-top: 10px;
+}
+
+
+
+
+
